@@ -1,3 +1,20 @@
+/* ======= VARIABLES ======= */
+
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --secondaty-font: "Raleway", sans-serif;
+
+  --primary-white-color: #f4f4fd;
+  --secondary-white-color: #ffffff;
+  --navyblue-color: #2e2f42;
+  --blue-color: #4d5ae5;
+  --slate-color: #434455;
+  --cornflower-color: #e7e9fc;
+  --cloud-color: #f4f4fd;
+}
+
+/* ====================== */
+
 /* ======= COMMON ======= */
 
 .list {
@@ -12,49 +29,183 @@
 
 /* ======= HEADER ======= */
 
+.header-section {
+  border-bottom: 1px solid var(--third-white-color);
+  background: var(--secondary-white-color);
+}
+
 .logo-name {
-  color: #4d5ae5;
-  font-family: Raleway;
+  color: var(--blue-color);
+  font-family: var(--primary-font);
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 1.17; /* 116.667% */
+  line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
 }
 
 .logo-black {
-  color: #2e2f42;
+  color: var(--navyblue-color);
 }
 
-.navigation-list {
-  color: #2e2f42;
-  font-family: Roboto;
+.navigation-link {
+  color: var(--navyblue-color);
+  font-family: var(--primary-font);
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
+
+.contact-link {
+  color: #434455;
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* ====================== */
+
+/* ======= HERO ======= */
+
+.hero-section {
+  background-color: var(--navyblue-color);
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
+}
+
+.hero-title {
+  color: #ffffff;
+  font-family: var(--primary-font);
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+  text-align: center;
+}
+
+.hero-button {
+  color: var(--secondary-white-color);
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+
+  border-radius: 4px;
+  background: var(--blue-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+/* ====================== */
+
+/* ======= BENEFITS ======= */
+
+.benefits-section {
+  background-color: var(--secondary-white-color);
+}
+
+.benefits-title {
+  color: var(--navyblue-color);
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2px;
+  letter-spacing: 0.4px;
+}
+
+.benefits-text {
+  color: var(--slate-color);
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+/* ====================== */
+
+/* ======= PRODUCTS ======= */
+
+.product-title {
+  color: var(--navyblue-color);
+  font-family: var(--primary-font);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+/* ====================== */
+
+/* ======= OUR TEAM ======= */
+
+.team-section {
+  background: var(--cloud-color);
+}
+
+.team-title {
+  color: var(--navyblue-color);
+  font-family: var(--primary-font);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.team-worker-name {
+  color: var(--navyblue-color);
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.team-worker-position {
+  color: var(--slate-color);
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
 /* ====================== */
 
 /* ======= FOOTER ======= */
 
 .main-footer {
-  background-color: #2e2f42;
+  background-color: var(--navyblue-color);
 }
 
 .logo-white {
-  color: #f4f4fd;
+  color: var(--primary-white-color);
 }
 
 .footer-text {
-  color: #f4f4fd;
-  font-family: Roboto;
+  color: var(--primary-white-color);
+  font-family: var(--primary-font);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
