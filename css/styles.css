@@ -34,6 +34,9 @@ body {
   font-family: var(--primary-font);
   font-style: normal;
   font-size: 16px;
+
+  color: var(--slate-color);
+  background-color: var(--secondary-white-color);
 }
 
 /* ====================== */
@@ -42,10 +45,10 @@ body {
 
 .header-section {
   border-bottom: 1px solid var(--third-white-color);
-  background: var(--secondary-white-color);
 }
 
-.logo-name {
+.header-logo {
+  font-family: var(--secondaty-font);
   color: var(--iris-color);
   font-size: 18px;
   font-weight: 800;
@@ -60,20 +63,28 @@ body {
 
 .navigation-link {
   color: var(--navyblue-color);
-  font-family: var(--primary-font);
-  /* font-size: 16px; */
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
 }
 
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--ocean-color);
+}
+
 .contact-link {
-  color: var(--slate-color);
   font-family: var(--primary-font);
-  /* font-size: 16px; */
+  font-style: normal;
+  font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  color: var(--slate-color);
+}
+
+address {
+  font-style: normal;
 }
 
 /* ====================== */
@@ -82,13 +93,10 @@ body {
 
 .hero-section {
   background-color: var(--navyblue-color);
-  width: 1440px;
-  height: 600px;
   flex-shrink: 0;
 }
 
 .hero-title {
-  color: var(--secondary-white-color);
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -110,13 +118,14 @@ body {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--ocean-color);
+}
+
 /* ====================== */
 
 /* ======= BENEFITS ======= */
-
-.benefits-section {
-  background-color: var(--secondary-white-color);
-}
 
 .benefits-title {
   color: var(--navyblue-color);
@@ -127,8 +136,6 @@ body {
 }
 
 .benefits-description {
-  color: var(--slate-color);
-  font-family: var(--primary-font);
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
@@ -136,7 +143,7 @@ body {
 
 /* ====================== */
 
-/* ======= PRODUCTS ======= */
+/* ======= WHAT ARE WE DOING ======= */
 
 .product-title {
   color: var(--navyblue-color);
@@ -145,6 +152,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  text-align: center;
 }
 
 /* ====================== */
@@ -157,13 +165,12 @@ body {
 
 .team-title {
   color: var(--navyblue-color);
-  font-family: var(--primary-font);
   font-size: 36px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .team-worker-name {
@@ -175,7 +182,6 @@ body {
 }
 
 .team-worker-position {
-  color: var(--slate-color);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
@@ -200,13 +206,6 @@ body {
   letter-spacing: 0.64px;
 }
 
-.active {
-  color: var(--secondary-white-color);
-  background: var(--ocean-color);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
-}
-
 .portfolio-title {
   color: var(--navyblue-color);
   font-family: var(--primary-font);
@@ -227,6 +226,27 @@ body {
   letter-spacing: 0.32px;
 }
 
+.portfolio-button {
+  font-family: var(--primary-font);
+  background-color: var(--primary-white-color);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  border-radius: 4px;
+  border: 1px solid var(--cornflower-color);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--ocean-color);
+
+  color: var(--secondary-white-color);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
 /* ====================== */
 
 /* ======= FOOTER ======= */
@@ -235,8 +255,18 @@ body {
   background-color: var(--navyblue-color);
 }
 
+.footer-logo {
+  font-family: var(--secondaty-font);
+  color: var(--iris-color);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
 .logo-white {
-  color: var(--primary-white-color);
+  color: var(--cloud-color);
 }
 
 .footer-describe {
