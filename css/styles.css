@@ -43,10 +43,6 @@ body {
 
 /* ======= HEADER ======= */
 
-.header-section {
-  border-bottom: 1px solid var(--third-white-color);
-}
-
 .header-logo {
   font-family: var(--secondaty-font);
   color: var(--iris-color);
