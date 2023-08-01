@@ -126,15 +126,11 @@ address {
 
 /* ======= BENEFITS ======= */
 
-.benefits-title {
-  line-height: 1.2px;
-}
-
 .benefits-item-title {
   color: var(--navyblue-color);
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2px;
+  line-height: 1.2;
   letter-spacing: 0.4px;
 }
 
@@ -231,6 +227,7 @@ address {
 .portfolio-button {
   font-family: var(--primary-font);
   background-color: var(--cloud-color);
+  color: var(--iris-color)
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -242,7 +239,7 @@ address {
 .portfolio-button:hover,
 .portfolio-button:focus {
   background-color: var(--ocean-color);
-  color: var(--secondary-white-color);
+  color: var(--cloud-color);
 }
 
 /* ====================== */
