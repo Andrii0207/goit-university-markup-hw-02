@@ -172,6 +172,10 @@ address {
   text-align: center;
 }
 
+.team-item {
+  background-color: var(--secondary-white-color);
+}
+
 .team-worker-name {
   color: var(--navyblue-color);
   font-size: 20px;
