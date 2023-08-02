@@ -84,7 +84,7 @@ body {
   color: var(--ocean-color);
 }
 
-address {
+.address-link {
   font-style: normal;
 }
 
